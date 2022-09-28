@@ -1,0 +1,80 @@
+@media screen and (max-width: 880px){
+    /* Debut de l'entete */
+    .onglets{
+        display: none;
+    }
+    /* Debut service */
+    .main{
+        
+        margin-right: 0px;
+        font-size: 0.7em;
+    }
+   
+    .container2{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .mains{
+        margin-top: 20px;
+      
+    }
+    .mains h2{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .cards{
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+       margin-left: 20px;
+    }
+    .card{
+        margin-left: -7px;
+    }
+    
+    /* Fin service */
+    /* Debut contact */
+    .contact{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: -20px
+    }
+    /* Debut formulaire */
+    textarea{
+        height: 90px;
+        width: 206px;
+        margin-top: 10px;
+        font-size: 1.1em;
+    }
+    .cordon input{
+        font-size: 1.1em;
+        width: 206px;
+    }
+    
+    .cordon{
+        margin-top: 20px;
+        
+    }
+   
+    /*Fin formulaire  */
+
+    /* Fin contact */
+
+    /*Debut du pied de page */
+        .don{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+    .pied{
+        
+        margin-top: 20px;
+        margin-left: -10px;
+    }
+    /*Fin du pied de page */
+    
+}

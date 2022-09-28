@@ -1,0 +1,303 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Debut du menu */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    background-color: green;   
+}
+
+span{
+    color: black;
+}
+
+.onglets{
+  padding: 10px;
+  padding-right: 40px;
+}
+
+.onglets a{
+    margin-left: 20px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: white;
+}
+
+.onglets a:hover{
+    font-size: 1.4em;
+    color: blue;
+}
+
+nav h1{
+    color: white;
+    font-size: 1.5em;    
+}
+
+h1 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding-right: 4px;    
+}
+/* Fin du menu */
+/* Debut de l'entete */
+
+.blocs{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+    
+    background-image: url(../images/deve.jpg);
+    height: 300px;
+}
+
+.blocs button{
+    padding: 9px 30px 9px 30px;
+    margin-top: 10px;
+    background-color: green;
+    border: 3px solid green;
+    border-radius: 5px;
+    font-size: 1.2em;   
+}
+
+.blocs button:hover{
+    background-color: white;    
+}
+
+.main p{
+    font-size: 2em;
+    color: white;
+}
+
+.main .salu{
+    font-size: 2.8em;
+}
+
+.dev{
+    color: green;
+}
+
+.main .nom{
+    font-size: 3.5em;
+    color: green;
+}
+
+/* Fin de l'entete */
+/* Debut a propos */
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+
+.container h2{
+    text-align: center;
+    font-size: 3em;
+    text-decoration: underline green;   
+}
+
+.container2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;    
+}
+
+.container2 img{
+    width: 250px;
+    height: 250px;
+    border-radius: 7px;
+}
+
+.container3{
+    font-size: 1.4em;     
+}
+
+.container3 h3{
+    
+    text-align: center;
+
+    
+}
+
+.container3 p{
+    margin-top: 20px;
+}
+
+.container3 button{
+    padding: 10px;
+    font-size: 1.2em;
+    margin-top: 20px;
+    border-radius: 7px;
+    background-color: green;
+    border: 3px solid green;
+}
+
+.container3 button:hover{
+    background-color: white;
+}
+
+/* Fin a propos */
+
+/* debut SERVICE  */
+.mains{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #000;  
+}
+
+.mains h2{
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    margin-top: -10px;
+    text-decoration: underline green;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+   
+   
+}
+
+.cards .card{
+    width: 270px;
+    height: 270px;
+    background-color: #292929;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.2em;
+    border-radius: 7px;
+    color: white;    
+}
+
+.card h3{
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+.card i{
+    margin-top: 20px;
+    font-size: 1.3em;
+}
+.card p{
+    margin-top: 5px;
+}
+/* Fin SERVICE  */
+/* Debut de contact */
+.contacts{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.contacts h1{
+    text-align: center;
+    font-size: 3em;
+    text-decoration: underline green;
+}
+.contacts .contact{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    font-size: 1.2em;
+    margin-top: 40px;
+}
+.cod h3{
+    margin-top: 20px;
+}
+/* Debut formulaire */
+
+.cordon .inp .in{
+  margin-bottom: 10px;
+  margin-top: 10px;
+  
+}
+ 
+.cordon h3{
+    font-size: 1.5em;
+    
+}
+
+textarea{
+    height: 90px;
+    width: 410px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+.cordon input{
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    
+} 
+.cod i{
+    margin-right: 9px;
+}
+button{
+    padding: 8px 20px 8px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: green;
+    border: 3px solid green;
+    font-size: 1em;
+
+}
+button:hover{
+    background-color: white;
+
+}
+h3 i{
+
+   color: green;
+}
+/* Fin formulaire */
+
+/* Debut de pied de page */
+footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #000;
+    padding: 30px;
+}
+footer .don{
+    display: flex;
+    justify-content: space-around;
+
+}
+footer .pied{
+    color: white;
+}
+.pied h3{
+    font-size: 1.5em;
+}
+.pied p{
+    font-size: 1.1em;
+   
+}
+footer .copy{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1.5em;
+
+}
+
+/* Fin de pied de page */
